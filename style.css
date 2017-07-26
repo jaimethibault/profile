@@ -1,5 +1,7 @@
 body {
-  background-color: #ECF3F6;
+  background-color: #F4F0DE;
+/*  background-image: url(pics/Hokusai.JPG);
+  background-size: cover;*/
   font-family: 'Open Sans', sans-serif;
   color: black;
   font-size: 15px;
@@ -7,9 +9,21 @@ body {
   font-weight: 300;
   display: block;
 }
+body::after {
+  content: "";
+  background: url(pics/Hokusai.JPG);
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
-  color: #127C56;
+  color: #1F3A5D;
 }
 h1 {
   font-size: 24px;
@@ -21,7 +35,7 @@ h3 {
   font-size: 18px;
 }
 a {
-  color: #127C56;
+  color: #1F3A5D;
   text-decoration: none;
 }
 a:hover {
