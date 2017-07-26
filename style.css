@@ -1,0 +1,130 @@
+body {
+  background-color: #ECF3F6;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 15px;
+  line-height: 150%;
+  font-weight: 300;
+  display: block;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #127C56;
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px;
+}
+a {
+  color: #127C56;
+  text-decoration: none;
+}
+a:hover {
+  color: #3D262A;
+  opacity: 0,5;
+}
+td {
+  vertical-align: top;
+}
+.container {
+  width: 800px;
+  margin: 30px auto;
+}
+#sports img {
+  width: 250px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  #sports img {
+    width: 200px;
+  }
+  body {
+    font-size: 14px;
+  }
+  table {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  #sports img {
+    width: 150px;
+  }
+  body {
+    font-size: 12px;
+  }
+  table {
+    font-size: 12px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  #sports img {
+    width: 75px;
+  }
+  body {
+    font-size: 10px;
+  }
+  table {
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+}
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 3px;
+  box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.text-center {
+  text-align: center;
+}
+.image-circle {
+  border-radius: 50%;
+}
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.list-inline li i {
+  font-size: 25px;
+}
+#sports td {
+  padding: 10px;
+}
+.image-border {
+  border: 1px solid lightgrey;
+}
+
